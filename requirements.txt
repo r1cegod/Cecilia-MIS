@@ -1,0 +1,5 @@
+pandas
+pytrends
+pyyaml
+tabulate
+pytest

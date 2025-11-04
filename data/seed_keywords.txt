@@ -1,0 +1,4 @@
+# Example seed keywords for automated collection
+ai tutor
+student planner
+urgent passport renewal
