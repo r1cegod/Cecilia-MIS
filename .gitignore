@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.python-version
+.env
+.venv/
+ENV/
+venv/
+pytest_debug.log
+.pytest_cache/
+.DS_Store
+out/trends_scored_*.csv

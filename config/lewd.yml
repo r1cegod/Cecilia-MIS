@@ -1,0 +1,39 @@
+{
+  "weights": {
+    "large": 0.25,
+    "early": 0.25,
+    "who_pays": 0.25,
+    "desperate": 0.25
+  },
+  "thresholds": {
+    "large": {"low": 10, "mid": 30, "high": 60},
+    "early": {"low": 0, "mid": 40, "high": 80},
+    "who_pays": {
+      "map": {
+        "student": 10,
+        "job_seeker": 15,
+        "creator": 18,
+        "freelancer": 20,
+        "SME": 23,
+        "enterprise": 25
+      },
+      "unknown_default": 8
+    },
+    "desperate": {
+      "bins": [
+        {"max": 0, "score": 4},
+        {"max": 3, "score": 10},
+        {"max": 10, "score": 17},
+        {"max": 30, "score": 22},
+        {"max": 1000000000, "score": 25}
+      ],
+      "heuristics_keywords": [
+        "need",
+        "urgent",
+        "stuck",
+        "broken",
+        "fail"
+      ]
+    }
+  }
+}
